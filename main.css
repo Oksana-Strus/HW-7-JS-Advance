@@ -1,0 +1,84 @@
+.movie-img {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.poster-style {
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    padding: 0;
+}
+
+#empty-poster {
+    display: none;
+
+}
+
+.modal-body-style {
+    border: 1px solid rgba(151, 151, 151, 0.849);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.movie-caption {
+    padding: 20px 0;
+    height: 100px;
+    background-color: rgb(195, 195, 195);
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.details-caption {
+    background-color: rgb(195, 195, 195);
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.movie-type,
+.movie-year {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+
+#more-details-btn {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px 0 0;
+    background-color: green;
+    color: white
+}
+
+.detail-img {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.details-description {
+    font-size: 14px;
+    color: gray;
+    padding: 20px 0;
+}
+
+.font-size {
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
